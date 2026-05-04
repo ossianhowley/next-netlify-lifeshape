@@ -1,23 +1,21 @@
-import Head from 'next/head'
-import Header from '@components/Header'
-import Footer from '@components/Footer'
+import { Fraunces, DM_Sans } from 'next/font/google'
 
-export default function Home() {
+const fraunces = Fraunces({
+  subsets: ['latin'],
+  weight: ['700', '900'],
+  variable: '--font-fraunces',
+})
+
+const dmSans = DM_Sans({
+  subsets: ['latin'],
+  weight: ['400', '500', '600'],
+  variable: '--font-dm-sans',
+})
+
+export default function App({ Component, pageProps }) {
   return (
-    <div className="container">
-      <Head>
-        <title>Next.js Starter!</title>
-        <link rel="icon" href="/favicon.ico" />
-      </Head>
-
-      <main>
-        <Header title="Welcome to my app!" />
-        <p className="description">
-          Get started by editing <code>pages/index.js</code>
-        </p>
-      </main>
-
-      <Footer />
-    </div>
+    <main className={`${fraunces.variable} ${dmSans.variable}`}>
+      <Component {...pageProps} />
+    </main>
   )
 }
