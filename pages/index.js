@@ -1,3 +1,5 @@
+import Link from 'next/link'
+
 export default function Home() {
   return (
     <div className="page">
@@ -87,25 +89,12 @@ export default function Home() {
           </svg>
         </div>
 
-        {/* Nav pill */}
-        <nav className="nav-pill">
-          <a href="#">Find Roles</a>
-          <span className="sep">|</span>
-          <a href="#">Career Paths</a>
-          <span className="sep">|</span>
-          <a href="#">Stories</a>
-          <span className="sep">|</span>
-          <a href="#">For All Ages</a>
-          <span className="sep">|</span>
-          <a href="#" style={{color:'var(--coral)',fontWeight:600}}>Join Free</a>
-        </nav>
-
       </div>{/* end .hero */}
 
       {/* BOTTOM BAR */}
       <div className="bottom-bar">
         <p className="tagline">For young minds &amp; seasoned souls&nbsp;•&nbsp;15 to 65+</p>
-        <button className="cta-btn">Start Shaping →</button>
+        <Link href="/about"><button className="cta-btn">Start Shaping →</button></Link>
       </div>
 
     </div>
