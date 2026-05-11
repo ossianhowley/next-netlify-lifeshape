@@ -51,7 +51,7 @@ export default function About() {
       <section className="about-section about-problem">
         <div className="about-section-inner">
           <p className="about-body">
-            Choosing a career — or even knowing where to start — can feel overwhelming.
+            Choosing a career or even knowing where to start, can feel overwhelming.
             We've seen it firsthand. Friends, family, and young people trying to figure out
             what's next, often without clear guidance, practical tools, or confidence in
             their direction.
@@ -113,7 +113,7 @@ export default function About() {
               <div className="timeline-content">
                 <div className="timeline-year">2026</div>
                 <div className="timeline-label">Testing ideas, features, and concepts</div>
-                <div className="timeline-desc">Learning what works — and what doesn't.</div>
+                <div className="timeline-desc">Learning what works, and what doesn't.</div>
               </div>
             </div>
             <div className="timeline-track"></div>
@@ -122,12 +122,12 @@ export default function About() {
               <div className="timeline-content">
                 <div className="timeline-year">2027</div>
                 <div className="timeline-label">Public platform launch</div>
-                <div className="timeline-desc">A fully built tool for everyone 15 to 65+.</div>
+                <div className="timeline-desc">A power set of tools for youth and those choosing their careers.</div>
               </div>
             </div>
           </div>
           <p className="about-body" style={{marginTop:'32px'}}>
-            We're in the early stages — and that's intentional. We'd rather build
+            We're in the early stages, and that's intentional. We'd rather build
             something genuinely useful slowly than rush something mediocre out the door.
           </p>
         </div>
@@ -138,7 +138,7 @@ export default function About() {
         <div className="about-section-inner">
           <h2 className="about-h2">Why this matters</h2>
           <p className="about-body">
-            Careers shape a huge part of life — time, energy, purpose, and wellbeing.
+            Careers shape a huge part of life,  time, energy, purpose, and wellbeing.
             But too many people feel unsure, stuck, or like they're guessing.
             We're building lifeshape to change that.
           </p>

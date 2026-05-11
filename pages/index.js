@@ -93,7 +93,7 @@ export default function Home() {
 
       {/* BOTTOM BAR */}
       <div className="bottom-bar">
-        <p className="tagline">For young minds &amp; seasoned souls&nbsp;•&nbsp;15 to 65+</p>
+        <p className="tagline">For young minds &amp; career deciders&nbsp;</p>
         <Link href="/about"><button className="cta-btn">A Better Path →</button></Link>
       </div>
 
