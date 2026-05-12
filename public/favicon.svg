@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+  <!-- Background with rounded corners -->
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#F2B09A"/>
+      <stop offset="100%" style="stop-color:#A8C5BB"/>
+    </linearGradient>
+    <clipPath id="rounded">
+      <rect width="100" height="100" rx="22"/>
+    </clipPath>
+  </defs>
+
+  <!-- Background -->
+  <rect width="100" height="100" rx="22" fill="url(#bg)"/>
+
+  <!-- Puzzle pieces group, clipped -->
+  <g clip-path="url(#rounded)">
+    <!-- Top-left: teal -->
+    <rect x="16" y="16" width="33" height="33" rx="5" fill="#3A9E8F"/>
+    <!-- connector nub bottom of teal -->
+    <rect x="27" y="46" width="12" height="8" rx="4" fill="#3A9E8F"/>
+
+    <!-- Top-right: coral -->
+    <rect x="51" y="16" width="33" height="33" rx="5" fill="#E8735A"/>
+    <!-- connector nub bottom of coral -->
+    <rect x="62" y="46" width="12" height="8" rx="4" fill="#E8735A"/>
+
+    <!-- Bottom-left: dark -->
+    <rect x="16" y="51" width="33" height="33" rx="5" fill="#1A1A1A"/>
+    <!-- notch cut into top of dark (for teal nub) -->
+    <rect x="27" y="49" width="12" height="6" rx="3" fill="url(#bg)"/>
+
+    <!-- Bottom-right: gold -->
+    <rect x="51" y="51" width="33" height="33" rx="5" fill="#D4A82A"/>
+    <!-- notch cut into top of gold (for coral nub) -->
+    <rect x="62" y="49" width="12" height="6" rx="3" fill="url(#bg)"/>
+
+    <!-- Teal check/tick line -->
+    <line x1="24" y1="42" x2="44" y2="28" stroke="#3A9E8F" stroke-width="4" stroke-linecap="round"/>
+
+    <!-- Gold arrow diagonal -->
+    <line x1="22" y1="72" x2="72" y2="22" stroke="#D4A82A" stroke-width="4.5" stroke-linecap="round"/>
+    <!-- Arrow head -->
+    <polygon points="72,22 60,24 70,34" fill="#D4A82A"/>
+  </g>
+</svg>
