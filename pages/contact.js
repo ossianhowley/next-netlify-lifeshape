@@ -44,20 +44,6 @@ export default function Contact() {
         <Link href="/" className="back-link">← Back to home</Link>
       </nav>
 
-      {/* Hidden form for Netlify build-time detection */}
-      <form name="contact" data-netlify="true" hidden>
-        <input type="text" name="name" />
-        <input type="email" name="email" />
-        <input type="number" name="age" />
-        <select name="interest">
-          <option>Learning about upcoming features</option>
-          <option>Being involved in testing</option>
-          <option>Career guidance for myself</option>
-          <option>Helping someone else (parent / teacher / coach)</option>
-          <option>Partnering or collaborating with lifeshape</option>
-        </select>
-        <textarea name="message"></textarea>
-      </form>
 
       <div className="contact-wrapper">
 
